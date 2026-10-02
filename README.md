@@ -38,4 +38,7 @@ Administrators can manage rols, patient data but not their medical records.
 
 Patients are NOT system users.
 ## 4. Product backlog
+US-01 As a receptionist, I want to send reminders to patients about their appointments, so they do not forget to come.
+US-02 As a doctor, I want to share medical records of my patients with other doctors, so I can get help from them.
+US-03 As an administrator, I want to be able to update or cancel appointments, so I can help patients when the receptionist is not here.
 ## 5. Process and ceremonies
