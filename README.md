@@ -19,5 +19,23 @@ Testability Automated unit and end-to-end tests run in CI on every pull request.
 Observability Application and system metrics exposed and visible on a dashboard.
 Maintainability A documented branching strategy and a versioning scheme for artefacts
 ## 3. Roles and access control
+A receptionist can access all patient data and edit them, including appointments, but should not be able to access their medical records.
+Doctors are able to view and edit appointments, and read and edit medical records of their own patients.
+Administrators can manage rols, patient data but not their medical records.
+
+| Capability                              | Receptionist | Doctor   | Administrator |   
+|-----------------------------------------|--------------|----------|---------------|
+| Register, search and edit a patient     | Y            | N        | Y             |   
+| Deactivate a patient record             | Y            | N        | Y             |   
+| Register, update or deactivate a doctor | N            | N        | Y             |   
+| Schedule an appointment                 | Y            | N        | Y             |   
+| View appointments                       | ALL          | OWN ONLY | ALL           |   
+| Update or cancel an appointment         | Y            | Y        | N             |   
+| Record diagnosis and visit notes        | N            | Y        | N             |   
+| Read a patient's medical history        | N            | OWN ONLY | N             |   
+| Export authorised data to CSV           | N            | Y        | N             |   
+| Manage user accounts and roles          | N            | N        | Y             |   
+
+Patients are NOT system users.
 ## 4. Product backlog
 ## 5. Process and ceremonies
