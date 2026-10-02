@@ -42,3 +42,12 @@ US-01 As a receptionist, I want to send reminders to patients about their appoin
 US-02 As a doctor, I want to share medical records of my patients with other doctors, so I can get help from them.
 US-03 As an administrator, I want to be able to update or cancel appointments, so I can help patients when the receptionist is not here.
 ## 5. Process and ceremonies
+The sprint length will be 2 weeks, I chose this because the threat from doctors trying to hack into other roles will be low as is their cyber security knowledge, so security is not the main issue. Also the data that we manage is purely text, can be pdf, should be easy to transfer from application to the server.
+
+Sprint plan:
+Sprint 1: Doctor record sharing, Doctors can view records sent from other doctors, but only if allowed by them, and no doctor should be able to edit other records
+Sprint 2: Appointment reminder sending, Receptionists can send a reminder, but they can not see the contact info of the patient, only the patient should be able to call back if interested.
+
+Ceremonies: Sprint planning will happen each start of the sprint, where duties are spread over the team, and sprint review will happen each end of the sprint, so we can see if something needs to be reviewed or redone.
+
+Backlog refinement triggers: A story is too large for one sprint, A story is unclear, Priorities have changed
