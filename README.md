@@ -120,3 +120,20 @@ Here, we must create the data model for the patient, validate input fields and t
 | US-14 | Build and publish container images through CI/CD             |            3 |
 | US-15 | Expose application metrics and configure a dashboard         |            4 |
 | US-16 | Configure container restart and application health checks    |            4 |
+
+## 9. Technology Stack
+
+### Backend
+Python - FastAPI provides automatic validation
+
+### Database
+PostgreSQL - good integrity possible between patients and appointments
+
+### Containterizing 
+Docker - possible to enable automatic image publishing upon a rapository update
+
+### CI/CD
+Github actions - runs testing on every request automatically
+
+### Metrics
+Grafana with Prometheus - expose metrics on dashboards
