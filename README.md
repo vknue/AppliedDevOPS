@@ -84,3 +84,41 @@ Allow receptionists to send reminders to patients and doctors about their appoin
 
 ### EP-08 DevOps
 Regulate automated testing, versioning, containeraisation before deploying
+
+## 7. Story points and estimation
+
+| Meaning                              | Story points | 
+|-----------------------------------------|--------------|
+| Small change | 1 |
+| Small change with minimal complexity | 2 |
+| Small feature, requires testing | 2 |
+| Medium feature, requires multiple components | 4 |
+| Large feature, requires integration and testing | 5 |
+| Very large feature that should be split into multiple stories | 6 |
+
+### Anchor story
+The anchor story is US - 04 : Managing a patient, which is estimated at 3 points
+Here, we must create the data model for the patient, validate input fields and test everything.
+
+### Pdocut backlog estimates
+
+### 7.4 Product backlog estimates
+
+| ID    | User story summary                                           | Story points |
+| ----- | ------------------------------------------------------------ | -----------: |
+| US-01 | Send  reminders                                   |            5 |
+| US-02 | Share medical records securely between doctors               |            4 |
+| US-03 | Allow administrators to update or cancel appointments        |            3 |
+| US-04 | Register a patient                                           |            3 |
+| US-05 | Search, view and edit patient records                        |            3 |
+| US-06 | Manage doctor records and availability                       |            3 |
+| US-07 | Schedule appointments                                        |            3|
+| US-08 | Prevent appointment double-booking                           |            4 |
+| US-09 | Record diagnoses and visit notes                             |            3 |
+| US-10 | Export authorised data to CSV                                |            2 |
+| US-11 | Authenticate users and enforce role permissions              |            5 |
+| US-12 | Deactivate patients while preserving historical appointments |           2 |
+| US-13 | Run automated unit and end-to-end tests in CI                |            5 |
+| US-14 | Build and publish container images through CI/CD             |            3 |
+| US-15 | Expose application metrics and configure a dashboard         |            4 |
+| US-16 | Configure container restart and application health checks    |            4 |
