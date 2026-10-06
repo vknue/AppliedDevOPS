@@ -100,9 +100,7 @@ Regulate automated testing, versioning, containeraisation before deploying
 The anchor story is US - 04 : Managing a patient, which is estimated at 3 points
 Here, we must create the data model for the patient, validate input fields and test everything.
 
-### Pdocut backlog estimates
-
-### 7.4 Product backlog estimates
+### Procut backlog estimates
 
 | ID    | User story summary                                           | Story points |
 | ----- | ------------------------------------------------------------ | -----------: |
