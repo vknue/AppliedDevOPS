@@ -38,9 +38,15 @@ Administrators can manage rols, patient data but not their medical records.
 
 Patients are NOT system users.
 ## 4. Product backlog
-US-01 As a receptionist, I want to send reminders to patients about their appointments, so they do not forget to come.
-US-02 As a doctor, I want to share medical records of my patients with other doctors, so I can get help from them.
-US-03 As an administrator, I want to be able to update or cancel appointments, so I can help patients when the receptionist is not here.
+### US-01 As a receptionist, I want to send reminders to patients about their appointments, so they do not forget to come.
+### US-02 As a doctor, I want to share medical records of my patients with other doctors, so I can get help from them.
+### US-03 As an administrator, I want to be able to update or cancel appointments, so I can help patients when the receptionist is not here.
+### US-04 As a receptionist, I want to register a patient, so we can see their information before an appointment
+### US-05 As a receptionist, I want to search and view patients, so I can quickly find their data
+### US-06 As an administrator, I want to manage doctors, so they can be enabled to use the system
+### US-07 As a receptionist, I want double booking to be prevented, so I dont make any mistakes
+### US-08 As a doctor, I want to export data as pdf, so I can use it for lab testing or reporting.
+
 ## 5. Process and ceremonies
 The sprint length will be 2 weeks, I chose this because the threat from doctors trying to hack into other roles will be low as is their cyber security knowledge, so security is not the main issue. Also the data that we manage is purely text, can be pdf, should be easy to transfer from application to the server.
 
@@ -51,3 +57,30 @@ Sprint 2: Appointment reminder sending, Receptionists can send a reminder, but t
 Ceremonies: Sprint planning will happen each start of the sprint, where duties are spread over the team, and sprint review will happen each end of the sprint, so we can see if something needs to be reviewed or redone.
 
 Backlog refinement triggers: A story is too large for one sprint, A story is unclear, Priorities have changed
+
+
+## 6. Epics
+
+### EP-01 Managing patients
+Register, search, view, edit, and deactivate patients
+
+### Ep-02 Managing doctors
+Register, search, view, edit, and deactivate doctors
+
+### EP-03 Managing appointments
+Register, search, view, edit, and deactivate appointments
+
+### EP-04 Medical records
+Register, search, view, edit medical records
+
+### EP-05 Authentication and access control
+Auchenticate users and stabilize who can do what
+
+### EP-06 Reports
+Allow doctors to download patient data as pdf
+
+### EP-07 Reminders
+Allow receptionists to send reminders to patients and doctors about their appointments
+
+### EP-08 DevOps
+Regulate automated testing, versioning, containeraisation before deploying
