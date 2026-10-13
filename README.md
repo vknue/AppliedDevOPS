@@ -140,3 +140,16 @@ Github actions - runs testing on every request automatically
 
 ### Metrics
 Grafana with Prometheus - expose metrics on dashboards
+
+## 10. Branching strategy
+
+Branching Strategy
+
+The project uses a consistent branch naming convention to keep development work organised and linked to GitHub issues.
+main — stable, reviewed code.
+* feature/issue-<number>-<short-description> — new functionality.
+* bugfix/issue-<number>-<short-description> — bug fixes.
+* hotfix/issue-<number>-<short-description> — urgent fixes to the stable version.
+* Each branch is created from its corresponding GitHub issue through the issue's Development section. Branches should contain focused changes related to one issue.
+Commits reference the associated issue using #<issue-number>. Completed work is integrated into main through a reviewed pull request.
+Example: feature/issue-12-patient-data-model.
