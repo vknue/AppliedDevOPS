@@ -1,5 +1,8 @@
 # Hospital Management — DevOps Project
 
+## Project board
+GitHub Project: https://github.com/users/vknue/projects/3/views/1
+
 ## 1. Project overview
 ## 2. Requirement analysis
 ### 2.1 Functional requirements
